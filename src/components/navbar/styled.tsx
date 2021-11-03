@@ -6,7 +6,7 @@ export const Navbar = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: ${(props) => props.theme.colors.black};
+  background-color: ${(props) => props.theme.colors.black.main};
   height: 5rem;
   width: 100vw;
   font-size: 1rem;
