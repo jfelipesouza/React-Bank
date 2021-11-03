@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
   
@@ -10,25 +10,24 @@ const GlobalStyles = createGlobalStyle`
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Encode Sans Expanded',sans-serif;
+    overflow-x: hidden;
   }
   
   body::-webkit-scrollbar {
-  width: 12px;               
+  width: 5px;               
   }
 
   body::-webkit-scrollbar-track {
-    background: orange;        
+    background: ${(props) => props.theme.colors.black.dark};        
   }
 
   body::-webkit-scrollbar-thumb {
-    background-color: blue;    
+    background-color: ${(props) => props.theme.colors.primary};    
     border-radius: 20px;       
-    border: 3px solid orange;  
   }
 
 
 `;
-
 
 export default GlobalStyles;

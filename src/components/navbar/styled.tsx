@@ -7,10 +7,11 @@ export const Navbar = styled.nav`
   align-items: center;
   justify-content: center;
   background-color: ${(props) => props.theme.colors.black.main};
-  height: 5rem;
-  width: 100vw;
+  height: 4.5rem;
+  /* margin-top: -5rem; */
   font-size: 1rem;
-  position: sticky;
+  position: fixed;
+  width: 100vw;
   top: 0;
   z-index: 10;
 
@@ -22,10 +23,10 @@ export const Navbar = styled.nav`
 export const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 5rem;
+  height: 4.5rem;
   z-index: 1;
   width: 100%;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
   max-width: 1100px;
 `;
 
@@ -34,9 +35,10 @@ export const NavLogo = styled(LinkRouter)`
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
-  margin-left: 1.5rem;
+  margin-left: 0.5rem;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
@@ -55,7 +57,7 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-  height: 5rem;
+  height: 4.5rem;
 `;
 
 export const NavLink = styled(LinkScroll)`
