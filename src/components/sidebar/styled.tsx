@@ -12,7 +12,7 @@ export const Container = styled.div<SidebarContainerProps>`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background-color: ${(props) => props.theme.colors.ligthBlack};
+  background-color: ${(props) => props.theme.colors.black.ligth};
   display: grid;
   align-items: center;
   top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
