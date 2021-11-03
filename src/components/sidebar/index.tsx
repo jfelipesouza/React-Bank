@@ -23,13 +23,13 @@ const Sidebar: React.FC = () => {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink onClick={() => setOpen(!open)} to="about">
-            About
+            Sobre
           </SidebarLink>
           <SidebarLink onClick={() => setOpen(!open)} to="discover">
-            Discover
+            Saiba Mais
           </SidebarLink>
           <SidebarLink onClick={() => setOpen(!open)} to="services">
-            Services
+            Serviços
           </SidebarLink>
           <SidebarLink onClick={() => setOpen(!open)} to="singup">
             Sing Up

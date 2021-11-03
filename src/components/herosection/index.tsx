@@ -13,7 +13,7 @@ import {
 } from "./styled";
 import Video from "../../assets/videos/video.mp4";
 
-export const HeroSection: React.FC = () => {
+const HeroSection: React.FC = () => {
   const [hover, setHover] = useState(true);
 
   const onHover = () => {
@@ -40,3 +40,5 @@ export const HeroSection: React.FC = () => {
     </HeroContainer>
   );
 };
+
+export default HeroSection;
