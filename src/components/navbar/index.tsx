@@ -28,7 +28,9 @@ const Navbar: React.FC = () => {
 
         <NavMenu>
           <NavItem>
-            <NavLink to="about">Sobre</NavLink>
+            <NavLink to="about" activeClass="active" smooth={true}>
+              Sobre
+            </NavLink>
           </NavItem>
           <NavItem>
             <NavLink to="discover">Saiba Mais</NavLink>
