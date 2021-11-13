@@ -17,6 +17,10 @@ const ContextProvider: React.FC = (props) => {
         setOpen,
       }}
     >
+      {/* 
+        Criado contexto da aplicação para abertura
+        e fechamento da sidebar 
+        */}
       {props.children}
     </Context.Provider>
   );
