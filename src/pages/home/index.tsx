@@ -4,6 +4,8 @@ import HeroSection from "../../components/herosection";
 import Section from "../../components/sections";
 import { Container } from "./styled";
 import { data } from "../../components/sections/data";
+import ServicesSection from "../../components/servicesection";
+import Footer from "../../components/footer";
 
 const Home: React.FC = () => {
   return (
@@ -24,6 +26,9 @@ const Home: React.FC = () => {
           btnText={object.btnText}
         />
       ))}
+      <ServicesSection id={"services"} />
+
+      <Footer />
     </Container>
   );
 };

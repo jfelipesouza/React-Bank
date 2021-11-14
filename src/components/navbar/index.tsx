@@ -33,18 +33,24 @@ const Navbar: React.FC = () => {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="discover">Saiba Mais</NavLink>
+            <NavLink to="discover" activeClass="active" smooth={true}>
+              Saiba Mais
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="services">Serviços</NavLink>
+            <NavLink to="services" activeClass="active" smooth={true}>
+              Serviços
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="singup">Sing Up</NavLink>
+            <NavLink to="singup" activeClass="active" smooth={true}>
+              Sing Up
+            </NavLink>
           </NavItem>
         </NavMenu>
 
         <NavBtn>
-          <NavBtnLink to="/signin">Sing In</NavBtnLink>
+          <NavBtnLink to="/singin">Sing In</NavBtnLink>
         </NavBtn>
       </NavContainer>
     </NavbarContainer>

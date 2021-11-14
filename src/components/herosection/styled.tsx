@@ -105,10 +105,11 @@ export const HeroBtn = styled(LinkScroll)`
   outline: none;
   border: none;
   transition: all 0.2s ease-in-out;
+  text-align: center;
 
   &:hover {
-    background: ${(props) => props.theme.colors.black.ligth};
-    color: ${(props) => props.theme.colors.primary};
+    background: ${(props) => props.theme.colors.white};
+    color: ${(props) => props.theme.colors.black.dark};
     font-size: 1.2rem;
     padding: 0.85rem 1.8rem;
   }

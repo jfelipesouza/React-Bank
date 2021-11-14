@@ -8,7 +8,6 @@ export const Navbar = styled.nav`
   justify-content: center;
   background-color: ${(props) => props.theme.colors.black.main};
   height: 4.5rem;
-  /* margin-top: -5rem; */
   font-size: 1rem;
   position: fixed;
   width: 100vw;

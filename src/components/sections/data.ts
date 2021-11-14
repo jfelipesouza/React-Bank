@@ -6,9 +6,9 @@ import car2 from '../../assets/img/car2.svg';
 export const data = [
   {
     id:'about',
-    lightBg:false,
-    lightText:true,
-    imgStart:false,
+    lightBg:true,  
+    lightText:false,
+    imgStart:true,
     topLine:'Premium Bank',
     headLine:'Transações ilimitadas com taxas zero!',
     description:'Tenha acesso ao nosso aplicativo exclusivo que permite o envio de transações ilimitadas sem cobrança de taxas.',
@@ -18,9 +18,9 @@ export const data = [
   },
   {
     id:'discover',
-    lightBg:true,
-    lightText:false,
-    imgStart:true,
+    lightBg:false,
+    lightText:true,
+    imgStart:false,
     topLine:'Acesso Ilimitado',
     headLine:'Acesse sua conta a qualquer momento.',
     description:'Temos tudo o que você precisa, não importa onde você esteja. Tudo o que você precisa é uma conexão com a Internet e um telefone ou computador.',
@@ -31,9 +31,9 @@ export const data = [
   },
   {
     id:'singup',
-    lightBg:false,
-    lightText:true,
-    imgStart:false,
+    lightBg:true,
+    lightText:false,
+    imgStart:true,
     topLine:'Junte-se a nossa equipe',
     headLine:'Criar uma conta é extremamente fácil!',
     description:'Prepare tudo em menos de 10 minutos. Tudo que você precisa fazer é adicionar suas informações e você está pronto para começar.',

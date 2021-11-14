@@ -33,7 +33,7 @@ const HeroSection: React.FC = () => {
         </HeroParagrath>
         <HeroBtnContainer onMouseEnter={onHover} onMouseOut={onHover}>
           <HeroBtn to={"singup"}>
-            Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+            Comece agora {hover ? <ArrowForward /> : <ArrowRight />}
           </HeroBtn>
         </HeroBtnContainer>
       </HeroContent>
